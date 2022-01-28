@@ -113,3 +113,22 @@ hr{
     border-radius: 15px;
     color: #FF4A60;
 }            
+
+
+
+/*-----------------
+Media Query
+-------------------*/
+
+@media only screen and (max-width:700px){
+    .container{
+        width: 100%;
+     }
+     .players, .blogs, .courses{
+        grid-template-columns: repeat(1, 1fr);
+     }
+     .player, .blog, .course{
+        flex-direction: column;
+     }
+    
+}
